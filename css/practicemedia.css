@@ -16,6 +16,7 @@
         font-weight: 400;
     }
     .container-fluid .image .col-md-12 img{
+        background-position: center center;
         position: absolute;
         height: 70%;
         width: 100%;
