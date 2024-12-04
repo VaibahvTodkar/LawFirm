@@ -1,0 +1,30 @@
+@media (max-width:600px) {
+    .main {
+        position: relative;
+        top: -30px;
+    }
+    /* to hode the bar below title */
+    .main .container-fluid .row .col-md-12 .bar {
+        display: none;
+    }
+    .container-fluid .image .col-md-12 .text{
+        height: 40px;
+        width: 300px;
+        /* background-color: aqua; */
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .container-fluid .image .col-md-12 img{
+        position: absolute;
+        height: 70%;
+        width: 100%;
+    }
+
+    /* publication media query */
+
+    .cards{
+        position: relative;
+        top: -70px;
+    }
+}
