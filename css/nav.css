@@ -1,0 +1,24 @@
+/* Logo Style */
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+/* Center Navigation Styling */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Contact Number Styling */
+.contact-number {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+}
