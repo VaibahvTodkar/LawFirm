@@ -1,4 +1,3 @@
-
 *{
 margin: 0;
 padding: 0;
@@ -99,17 +98,67 @@ width: 27vh;
 .container .row .col-md-12 .picture p:hover{
 color: rgb(213, 170, 109);
 cursor: pointer;
+transition: all .3s ease-in-out;
 }
 
 
-#loc{
+/* #loc{
     background: black;
     color: white;
  }
  
  #img-m{
     align-items: center;
-    
- }
+ } */
 
+/* section below about us in black */
+.black-about{
+   color: aliceblue;
+   height: 200px;
+   max-width: 100%;
+}
+.black-about .row {
+   height: 100%;
+   /* background-color: aquamarine; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.black-about .row .col-md-3{
+   display: flex;
+   justify-content: end;
+}
+/* image above we serve section */
 
+.imageContainer {
+   height: 350px;
+   max-width: 550px;
+   /* background-color: burlywood; */
+   position: relative;
+   top: -50px;
+}
+.imageContainer .row  img  {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   /* background-color: aqua; */
+   background-position: center;
+   background-size: cover;
+}
+
+/* for the last image of the who we serve */
+.row .newline{
+   padding-left: 99px;
+}
+.row .newline p {
+   /* background-color: aqua; */
+   display: block;
+   margin-left: -25px;
+   margin-top: 1vh;
+   font-size: 2.6vh;
+}
+.container .row .newline .picture p:hover{
+   color: rgb(213, 170, 109);
+   cursor: pointer;
+   transition: all .3s ease-in-out;
+}

@@ -1,7 +1,7 @@
 @media (max-width:600px) {
-    .main {
+    main {
         position: relative;
-        top: -30px;
+        top: -110px;
     }
     /* to hode the bar below title */
     .main .container-fluid .row .col-md-12 .bar {
@@ -23,6 +23,6 @@
     }
     section .container {
         position: relative;
-        top: -130px;
+        top: -100px;
     }
 }
