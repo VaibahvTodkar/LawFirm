@@ -26,5 +26,17 @@
         top: -130px;
     }
 
-    
+    /* black-about */
+    section .black-about{
+        position: relative;
+        top: -100px;
+        height: 70vh;
+    }
+    .imageContainer .row{
+        height: 300px;
+        width: 100%;
+        position: relative;
+        top: -110px;
+        left: 10px;
+    }
 }

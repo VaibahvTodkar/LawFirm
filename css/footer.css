@@ -12,13 +12,15 @@ footer {
     top: 60px;
 }
 footer .container{
-    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer .container .row .col-md-4 iframe {
     height: 100%;
     width: 70%;
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 1px;
     position: relative;
     top: 50%;
     left: 50%;
@@ -78,9 +80,9 @@ footer .container .row .col-md-4 .title {
 
 @media (max-width:600px) {
     footer{
-        height:95vh;
+        height:90vh;
         position: relative;
-        top: -50px;
+        top: 60px;
     }
     footer .container .row .col-md-4 iframe{
         margin-top: px;

@@ -4,7 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 body{
-height: 100vh;
+height: 100%;
 /* width: 100vw; */
 /* position: relative; */
 } 
@@ -57,7 +57,7 @@ color: #212121;
 color: rgb(213, 170, 109);
 }
 .container {
-margin-top: 2vh;
+/* margin-top: 2vh; */
 height: 100%;
 width: 100%;
 }
@@ -111,29 +111,29 @@ transition: all .3s ease-in-out;
     align-items: center;
  } */
 
-/* section below about us in black */
-.black-about{
-   color: aliceblue;
+/*section below about us in black */
+section .black-about{
+   color: #fff;
    height: 200px;
-   max-width: 100%;
+   position: relative;
 }
 .black-about .row {
    height: 100%;
-   /* background-color: aquamarine; */
+   width: auto;
    display: flex;
    align-items: center;
    justify-content: center;
+
 }
 .black-about .row .col-md-3{
    display: flex;
-   justify-content: end;
+   justify-content: center;
 }
 /* image above we serve section */
 
 .imageContainer {
    height: 350px;
    max-width: 550px;
-   /* background-color: burlywood; */
    position: relative;
    top: -50px;
 }
@@ -157,8 +157,19 @@ transition: all .3s ease-in-out;
    margin-top: 1vh;
    font-size: 2.6vh;
 }
-.container .row .newline .picture p:hover{
-   color: rgb(213, 170, 109);
-   cursor: pointer;
-   transition: all .3s ease-in-out;
+
+.container .row .col-md-7  .btn {
+   background-color: #fff;
+   border: 1px solid rgba(0,0,0,0.3);
+   color: #212121;
+   font-weight: 400;
+   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+   transition: 0.3s ease-in-out;
+}
+
+.container .row .col-md-7 .btn:hover{
+   box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+   transition: 0.3s ease-in-out;
+   transform: translateY(1px);
+   /* background-color: rgb(213, 170, 109); */
 }

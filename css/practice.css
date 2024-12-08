@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
+    height: 100%;
     /* width: 100vw; */
     /* position: relative; */
 } 
 .main{
-    height: 50%;
+    height: 100%;
     width: 100%;
     /* background-color: aquamarine; */
     position: relative;
@@ -52,14 +52,18 @@ body{
 .main .image .col-md-12 .bar a {
     text-decoration: none;
     color: #212121;
+    transition: all 0.2s ease;
 }
 .main .image .col-md-12 .bar a:hover {
     color: rgb(213, 170, 109);
+    transition: all 0.2s ease;
 }
 .container {
-    margin-top: 2vh;
+    /* margin-top: 2vh; */
     height: 100%;
     width: 100%;
+    position: relative;
+    top: 10px;
 }
 .container span {
     border-style: solid;
@@ -94,8 +98,10 @@ body{
     margin-top: 1vh;
     height: 50px;
     width: 27vh;
+    transition: all 0.2s ease;
 }
 .container .row .col-md-12 .picture p:hover{
     color: rgb(213, 170, 109);
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
