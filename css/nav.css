@@ -83,3 +83,48 @@
 .social-icons i:hover {
     color: #007bff;
 }
+
+
+
+
+/* slider on index page css  */
+.bnrslide {
+    display: flex;
+    overflow-x: hidden;
+    white-space: nowrap;
+    align-items: center;
+    position: relative;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .bnrslide .bnrimgitem {
+    flex-shrink: 0;
+    min-width: 180px;
+    height: 180px;
+    border-radius: 25px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .bnrslide .bnrimgitem:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .bnrslide .bnrimgitem {
+      min-width: 120px;
+      height: 120px;
+    }
+  }
+  
+
+
