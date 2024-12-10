@@ -1,0 +1,42 @@
+
+      
+*{
+box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: white;
+}
+  /* #faq{
+    margin-top: 15px;
+    padding: 10px;
+  
+  } */
+  .accordion-item{
+    font-weight: 400;
+  }
+
+  .accordion-button{
+    padding: 20px;
+        position: relative;
+        font-size: 20px;
+        line-height: 1.5rem;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 25px;
+        
+  }
+  .accordion-body{
+
+    font-family:Lucida Sans Unicode,Lucida Grande, sans-serif;
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 400;
+      margin: 20px 20px;
+
+  }
+  #accordionExample{
+  margin: 40px 0px;
+  text-align: justify;
+  
+} 
