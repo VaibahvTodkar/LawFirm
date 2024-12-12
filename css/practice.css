@@ -56,7 +56,7 @@ body{
 }
 .main .image .col-md-12 .bar a:hover {
     color: rgb(213, 170, 109);
-    transition: all 0.2s ease;
+    transition: color 0.8s ease;
 }
 .container {
     /* margin-top: 2vh; */
@@ -98,10 +98,9 @@ body{
     margin-top: 1vh;
     height: 50px;
     width: 27vh;
-    transition: all 0.2s ease;
+    transition: color .8s ease-in-out;
 }
 .container .row .col-md-12 .picture p:hover{
     color: rgb(213, 170, 109);
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
 }
