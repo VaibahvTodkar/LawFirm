@@ -100,7 +100,7 @@ transition: all 1s ease-in-out;
 .container .row .col-md-12 .picture p:hover{
 color: rgb(213, 170, 109);
 cursor: pointer;
-transition: all .3s ease-in-out;
+/* transition: all .3s ease-in-out; */
 }
 
 
