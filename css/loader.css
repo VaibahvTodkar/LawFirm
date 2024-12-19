@@ -2,7 +2,7 @@
     position: fixed;
     inset: 0;
     z-index: 999;
-    background-color: bisque;
+    /* background-color: rgb(232, 232, 232); */
     display: grid;
     place-content: center;
     transition: all 0.4s ease-in-out, all .4s ease-in-out;
@@ -11,7 +11,7 @@
 .loader {
     width: 4rem;
     height: 4rem;
-    border: .4rem solid #A51FF6;
+    border: .4rem solid rgb(213, 170, 109);
     border-radius: 50%;
     border-right-color: transparent;
     border-left-color: transparent;
